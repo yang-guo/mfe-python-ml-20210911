@@ -12,3 +12,8 @@
 ## Starting notebooks
 1. Active env: `conda activate mfe-python-ml`
 2. Run `jupyter-lab`
+
+## Installing Kepler
+1. Run `jupyter nbextension install --py --sys-prefix keplergl`
+2. Run `jupyter nbextension enable --py --sys-prefix keplergl`
+3. Run `jupyter labextension install @jupyter-widgets/jupyterlab-manager keplergl-jupyter`
